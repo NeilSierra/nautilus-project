@@ -56,22 +56,22 @@ class MapViewPage(ctk.CTkFrame):  # Page 1
         # Page section buttons declaring
         self.home_btn = ctk.CTkButton(
             self.page_section, height=40, corner_radius=0, anchor="w",
-            text="  •   Back to Home", font=("Arial", 15),
+            text="  Back to Home", font=("Arial", 15),
             command=lambda: control.change_page(0)
         )
         self.map_view_btn = ctk.CTkButton(
             self.page_section, height=40, corner_radius=0, anchor="w",
-            text="  •   Map View", font=("Arial", 15),
+            text="  Map View", font=("Arial", 15),
             command=lambda: control.change_page(1)
         )
         self.about_btn = ctk.CTkButton(
             self.page_section, height=40, corner_radius=0, anchor="w",
-            text="  •   About Us", font=("Arial", 15),
+            text="  About Us", font=("Arial", 15),
             command=lambda: control.change_page(2)
         )
         self.terms_btn = ctk.CTkButton(
             self.page_section, height=40, corner_radius=0, anchor="w",
-            text="  •   Terms and Conditions", font=("Arial", 15),
+            text="  Terms and Conditions", font=("Arial", 15),
             command=lambda: control.change_page(3)
         )
 
